@@ -1,0 +1,41 @@
+{
+  "ancestorSha256": "77291465c7b6226281f261796741e13fe87b99f44f1d8fae8f2f8aafdb4c7560",
+  "ancestorDimensions": [
+    1254,
+    1254
+  ],
+  "wallDimensions": [
+    1254,
+    1254
+  ],
+  "wallFormat": "PNG",
+  "wallMode": "RGB",
+  "wallSha256": "102fcf06dd7c9fbba9d875b941ad1ed76c5a983d365a57e5d0430a2b39624e73",
+  "generatedDraftSha256": "f72fe018731cadc81189abb9391cecf8d5cb5433fee46e408bf273dc93e9b50c",
+  "draftRetained": false,
+  "additionRectangle": [
+    750,
+    240,
+    90,
+    90
+  ],
+  "changedPixels": 2385,
+  "unchangedPixels": 1570131,
+  "allPixelsOutsideAdditionUnchanged": true,
+  "deepCracksProtected": true,
+  "previewDimensions": [
+    512,
+    512
+  ],
+  "previewFormat": "JPEG",
+  "previewBytes": 75630,
+  "previewQuality": 52,
+  "imageTool": "mcp__image__generate_image",
+  "prompt": "A small isolated prehistoric cave pigment mark on pure white background, for later transfer to rough stone: three distinct irregular small ochre pebbles held together by a single shallow charcoal crescent underneath, widely spaced so every pebble is separate. Sparse hand-drawn burnt-stick strokes and rough thumb daubs, flat worn Lascaux mineral pigments, yellow ochre and charcoal only. The whole mark centered with generous empty white margins. No text, letters, numerals, tally marks, signatures, logos, watermarks, borders, hands, handprints, people, frogs, photographs or 3D rendering.",
+  "reviewStatus": "Visually inspected the complete PNG and decoded 512-pixel JPEG.",
+  "unmetVisualRequirements": [],
+  "visibleFigure": "Ancestor Pepe retains a broad mouth and heavy-lidded eyes.",
+  "hands": "No hands or handprints added. Ancestor hands are concealed; zero visible hands or handprints require digit counting.",
+  "prohibitedElementsObserved": [],
+  "preservation": "All pixels outside the addition rectangle and protected deep cracks remain exact; no ancestral mark erased, moved or redrawn."
+}

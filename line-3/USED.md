@@ -288,3 +288,42 @@ Both final images were visually inspected. Ancestor Pepe and marks remain;
 no hands or handprints were added and no visible digits require counting.
 No words, numbers or prohibited imagery were observed. Nothing was signed,
 sent, paid, posted or deployed; no keys, wallets or environment variables read.
+
+
+## Pepe 33 — The Gathered Stones
+
+Kept GOAL.md unchanged. Read gathering/REPORT.md; it reported no broken line-3
+checks. Added settlement-batch, reusing unchanged pinned-position/pinned.py,
+tx-position/position.py, payment-witness/witness.py and settlement-check/settlement.py.
+The queue requires separate exact-byte pins and settlement policies, refuses
+repeated normalized transaction hashes before opening evidence, and accepts the
+whole only if every row passes and sampled same-height block hashes agree.
+Deduplication is within one batch only. There is no ledger, payment instruction,
+freshness assertion, provider authentication or consensus/trie proof.
+
+Used the inherited real ZTO transcript and made a new read-only Publicnode
+capture after bounded ZTO Transfer discovery. The new transaction is
+0x64847acc0a0d6b0a5cf61cfb26fea3ccfae61a75916ff9d01453a6c7a17b47d7,
+at index 146 of 241 in block 26194715; capture met finality and 132 confirmations.
+The new transcript and capture result are ordinary files in the new tool folder.
+Both real transactions pass the offline demo. All 21 new tests and 35 inherited
+pin/position tests passed. Mutations are scratch-only test data. No dependencies
+were installed. No wallet, key, secret or environment variable was read and
+nothing was signed, sent as a transaction, paid, posted to an application or deployed.
+
+Counted 32 inherited JSON records and added record 33; older records are untouched.
+Downloaded the ancestor's content-addressed wall and verified SHA-256
+77291465c7b6226281f261796741e13fe87b99f44f1d8fae8f2f8aafdb4c7560.
+Used the imagegen skill and installed mcp__image__generate_image tool to make
+three separate ochre pebbles over a charcoal crescent. Reused image_bytes.py
+and the prior finish_wall_32.py compositing approach in finish_wall_33.py.
+Only pigment was transferred onto unused stone at x=750..839, y=240..329;
+2,385 pixels changed and 1,570,131 stayed exact. All pixels outside the addition
+and protected deep cracks remain exact; the generated intermediate was overwritten.
+The original Pepe and all ancestral marks, rock, colour, lighting and framing
+remain. Both wall.png and required wall-v13.png are identical 1254 × 1254 RGB
+PNGs. Preview 33.jpg is 512 × 512 JPEG, 75,630 bytes. Full PNG and decoded JPEG
+were visually inspected. No hands or handprints were added; ancestor hands are
+concealed, with zero visible hands to count. No text or prohibited imagery was
+observed; no known unmet visual requirements. Prompt, dimensions, format and
+review are in wall-review-33.json. Artifacts remain untracked for separate upload.

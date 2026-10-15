@@ -1,0 +1,34 @@
+{
+  "passed": true,
+  "totalTests": 56,
+  "suites": [
+    {
+      "tool": "settlement-batch",
+      "exitCode": 0,
+      "output": "test_bad_first_row_does_not_hide_second (test_batch.BatchTests) ... ok\ntest_bounded_compact_result (test_batch.BatchTests) ... ok\ntest_duplicate_case_variant (test_batch.BatchTests) ... ok\ntest_duplicate_different_policy (test_batch.BatchTests) ... ok\ntest_duplicate_rejected_before_read (test_batch.BatchTests) ... ok\ntest_entire_plan_validated_before_reads (test_batch.BatchTests) ... ok\ntest_equal_shared_height_allowed (test_batch.BatchTests) ... ok\ntest_file_boundary_symlink_and_directory (test_batch.BatchTests) ... ok\ntest_invalid_policies (test_batch.BatchTests) ... ok\ntest_item_and_policy_exact_fields (test_batch.BatchTests) ... ok\ntest_manifest_exact_schema (test_batch.BatchTests) ... ok\ntest_manifest_parser_and_bound (test_batch.BatchTests) ... ok\ntest_matching_pin_bad_json (test_batch.BatchTests) ... ok\ntest_matching_pin_invalid_position (test_batch.BatchTests) ... ok\ntest_matching_pin_policy_mismatch (test_batch.BatchTests) ... ok\ntest_mixed_pin_failure_never_partial_accepts (test_batch.BatchTests) ... ok\ntest_no_network_no_mutation (test_batch.BatchTests) ... ok\ntest_real_two_transaction_batch (test_batch.BatchTests) ... ok\ntest_shared_height_conflict_rejects_aggregate (test_batch.BatchTests) ... ok\ntest_single_entry_supported (test_batch.BatchTests) ... ok\ntest_unsafe_evidence_paths_before_read (test_batch.BatchTests) ... ok\n\n----------------------------------------------------------------------\nRan 21 tests in 0.081s\n\nOK\n"
+    },
+    {
+      "tool": "pinned-position",
+      "exitCode": 0,
+      "output": "test_bad_pin_before_open (test_pinned.PinnedTests) ... ok\ntest_bad_policy_before_open (test_pinned.PinnedTests) ... ok\ntest_bytes_limit_and_type (test_pinned.PinnedTests) ... ok\ntest_cli_mismatch_and_input_error (test_pinned.PinnedTests) ... ok\ntest_demo_no_network_and_no_mutation (test_pinned.PinnedTests) ... ok\ntest_directory_and_fifo (test_pinned.PinnedTests) ... ok\ntest_extra_read_with_new_pin_rejects (test_pinned.PinnedTests) ... ok\ntest_file_limit (test_pinned.PinnedTests) ... ok\ntest_historical_real_zto (test_pinned.PinnedTests) ... ok\ntest_matching_hash_rejects_duplicate_keys (test_pinned.PinnedTests) ... ok\ntest_matching_hash_rejects_invalid_json (test_pinned.PinnedTests) ... ok\ntest_matching_hash_still_rejects_wrong_position (test_pinned.PinnedTests) ... ok\ntest_matching_hash_still_requires_independent_policy (test_pinned.PinnedTests) ... ok\ntest_mismatch_never_parses (test_pinned.PinnedTests) ... ok\ntest_read_exact_bytes (test_pinned.PinnedTests) ... ok\ntest_symlink_file_and_parent (test_pinned.PinnedTests) ... ok\ntest_unsafe_paths (test_pinned.PinnedTests) ... ok\ntest_whitespace_replacement (test_pinned.PinnedTests) ... ok\n\n----------------------------------------------------------------------\nRan 18 tests in 0.030s\n\nOK\n"
+    },
+    {
+      "tool": "tx-position",
+      "exitCode": 0,
+      "output": "test_anchor_changes_after_position_check (test_position.PositionTests) ... ok\ntest_boolean_numeric_policy_confusion (test_position.PositionTests) ... ok\ntest_boolean_numeric_request_confusion (test_position.PositionTests) ... ok\ntest_changed_block_hash (test_position.PositionTests) ... ok\ntest_duplicate_transaction (test_position.PositionTests) ... ok\ntest_invalid_policy_before_transport (test_position.PositionTests) ... ok\ntest_offline_demo (test_position.PositionTests) ... ok\ntest_policy_substitution (test_position.PositionTests) ... ok\ntest_read_request_mismatch (test_position.PositionTests) ... ok\ntest_real_zto_transaction (test_position.PositionTests) ... ok\ntest_receipt_changes_after_settlement (test_position.PositionTests) ... ok\ntest_replay_exact_envelope (test_position.PositionTests) ... ok\ntest_reverted_receipt (test_position.PositionTests) ... ok\ntest_shorter_transaction_list (test_position.PositionTests) ... ok\ntest_transaction_absent (test_position.PositionTests) ... ok\ntest_unused_read (test_position.PositionTests) ... ok\ntest_wrong_position_even_when_transaction_elsewhere (test_position.PositionTests) ... ok\n\n----------------------------------------------------------------------\nRan 17 tests in 0.035s\n\nOK\n"
+    }
+  ],
+  "demo": {
+    "accepted": true,
+    "count": 2,
+    "mode": "offline replay of retained real ZTO provider observations"
+  },
+  "liveCapture": {
+    "accepted": true,
+    "source": "https://ethereum-rpc.publicnode.com",
+    "transactionHash": "0x64847acc0a0d6b0a5cf61cfb26fea3ccfae61a75916ff9d01453a6c7a17b47d7",
+    "confirmations": 132,
+    "finalized": true
+  },
+  "limitations": "Local checks, not independent certification."
+}

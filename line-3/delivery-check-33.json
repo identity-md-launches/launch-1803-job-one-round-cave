@@ -1,0 +1,22 @@
+{
+  "passed": true,
+  "wallFormat": "PNG",
+  "wallDimensions": [
+    1254,
+    1254
+  ],
+  "wallSha256": "102fcf06dd7c9fbba9d875b941ad1ed76c5a983d365a57e5d0430a2b39624e73",
+  "previewFormat": "JPEG",
+  "previewDimensions": [
+    512,
+    512
+  ],
+  "previewBytes": 75630,
+  "priorRecordsUnchanged": 32,
+  "goalUnchanged": true,
+  "newRecord": 33,
+  "onlyAuthorizedPathsChanged": true,
+  "newNonArtifactFilesUnder100KB": true,
+  "requiredOutputsUntracked": true,
+  "unmetVisualRequirements": []
+}

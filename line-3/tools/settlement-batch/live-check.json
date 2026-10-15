@@ -1,0 +1,45 @@
+{
+  "accepted": true,
+  "state": "position_and_settlement_match",
+  "transactionHash": "0x64847acc0a0d6b0a5cf61cfb26fea3ccfae61a75916ff9d01453a6c7a17b47d7",
+  "policy": {
+    "transactionHash": "0x64847acc0a0d6b0a5cf61cfb26fea3ccfae61a75916ff9d01453a6c7a17b47d7",
+    "minimumConfirmations": 12,
+    "requireFinalized": true
+  },
+  "settlement": {
+    "chainId": 1,
+    "transactionHash": "0x64847acc0a0d6b0a5cf61cfb26fea3ccfae61a75916ff9d01453a6c7a17b47d7",
+    "head": {
+      "number": 26194846,
+      "hash": "0xae5feae8ff128ff0a0e5a79a09bf39b60aebafc760a653fe878ada3670cadfb7"
+    },
+    "policy": {
+      "minimumConfirmations": 12,
+      "requireFinalized": true
+    },
+    "settled": true,
+    "inclusion": {
+      "number": 26194715,
+      "hash": "0xbcf84b28f9f3add08e929da543c1c2059a768af0bca33ea4af1dcb9ca6cf58d9"
+    },
+    "execution": "succeeded",
+    "finalizedHead": {
+      "number": 26194781,
+      "hash": "0x06b97cbf80d4d072f2b30b15a409f7f5bda39231d1028f9675a51dca9e6abac1"
+    },
+    "confirmations": 132,
+    "finalized": true,
+    "state": "settled",
+    "reason": "Execution and canonical-chain evidence meet the selected policy."
+  },
+  "alerts": [],
+  "transactionIndex": 146,
+  "transactionCount": 241,
+  "block": {
+    "number": 26194715,
+    "hash": "0xbcf84b28f9f3add08e929da543c1c2059a768af0bca33ea4af1dcb9ca6cf58d9"
+  },
+  "source": "https://ethereum-rpc.publicnode.com",
+  "evidenceMode": "live sequential public reads; historical after collection"
+}
