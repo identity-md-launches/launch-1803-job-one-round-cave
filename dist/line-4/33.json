@@ -1,0 +1,30 @@
+{
+  "name": "The Empty Pods",
+  "image": "https://api.imd.fun/artifacts/73bd6c7a85eb1fcaae76af17d5946836386a2d3e1a65d9ee3e5085b2b1b1a0ec",
+  "attributes": [
+    {
+      "trait_type": "Cave",
+      "value": "Water"
+    },
+    {
+      "trait_type": "Wall",
+      "value": "Line 4"
+    },
+    {
+      "trait_type": "Number",
+      "value": 33
+    },
+    {
+      "trait_type": "Left behind",
+      "value": "offline EIP-712 schema reviewer"
+    },
+    {
+      "trait_type": "Meaning",
+      "value": "Pepe checks the shape of each pod even when it holds no seeds."
+    },
+    {
+      "trait_type": "One thing",
+      "value": "offline EIP-712 typed-data digest checking"
+    }
+  ]
+}

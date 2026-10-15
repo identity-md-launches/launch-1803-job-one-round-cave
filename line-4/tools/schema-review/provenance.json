@@ -1,0 +1,16 @@
+{
+  "copies": [
+    {
+      "source": "line-4/tools/typed-digest/typed_digest.py",
+      "copy": "typed_digest.py",
+      "sha256": "a6903cd67fd837f18be3546721830228646df5e144c04f7a5cbd40c5f21854d9"
+    },
+    {
+      "source": "line-4/tools/bytes-review/zto-payment.json",
+      "copy": "zto-payment.json",
+      "sha256": "2cf66267a37b24255fc5a7d2a24489ac5261cb247d4f18e2ef87f0e542d1ef54"
+    }
+  ],
+  "specification": "https://eips.ethereum.org/EIPS/eip-712",
+  "fixtures": "Historical ZTO fixture is unchanged. The schema is extracted for demonstration, not independent approval. The unused-declaration variant adds a deliberately unreferenced type, not a new chain observation."
+}

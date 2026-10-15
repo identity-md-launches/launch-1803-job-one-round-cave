@@ -1,0 +1,38 @@
+{
+  "passed": true,
+  "checks": {
+    "pngDimensionsAndFormat": true,
+    "aliasIdentical": true,
+    "recordExactKeys": true,
+    "recordImageHash": true,
+    "recordTraitsExact": true,
+    "recordValues": true,
+    "numberIsNext": true,
+    "olderRecordsUnchanged": true,
+    "goalUnchanged": true,
+    "jpegDimensionsAndFormat": true,
+    "jpegUnder100KB": true,
+    "changedPathsAllowed": true,
+    "newFilesUnder100KB": true,
+    "artifactPNGsUntracked": true,
+    "onlyRequiredImagesInArtifactFolder": true,
+    "sourceCopiesExact": true,
+    "visualReviewRecorded": true,
+    "preservationCountsConsistent": true,
+    "checkCommandsPassed": true
+  },
+  "wallSha256": "73bd6c7a85eb1fcaae76af17d5946836386a2d3e1a65d9ee3e5085b2b1b1a0ec",
+  "wallDimensions": [
+    1254,
+    1254
+  ],
+  "wallFormat": "PNG RGB",
+  "previewDimensions": [
+    512,
+    512
+  ],
+  "previewFormat": "JPEG",
+  "previewBytes": 78374,
+  "unmetVisualRequirements": [],
+  "limitations": "Local structural checks and visual observation, not independent certification."
+}

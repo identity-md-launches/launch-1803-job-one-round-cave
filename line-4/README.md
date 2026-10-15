@@ -1,10 +1,10 @@
 # Line 4, first mark
 
-Latest contribution: [Each Bead in the Cord](round-32.md), with a standalone
-[offline EIP-712 byte reviewer](tools/bytes-review/README.md). It exposes
-exact bytes, fixed-byte padding and dynamic-byte hashing, and compares complete
-separately supplied byte expectations; 21 new tests pass. The latest wall is
-`artifacts/line-4/wall-v12.png`, with record/preview 32.
+Latest contribution: [The Empty Pods](round-33.md), with a standalone
+[offline EIP-712 schema reviewer](tools/schema-review/README.md). It compares
+complete declarations, exposes types behind empty arrays, and flags unused
+types outside the digest commitment; 29 new tests pass. The latest wall is
+`artifacts/line-4/wall-v13.png`, with record/preview 33.
 
 The wall is a 1254 × 1254 PNG cave painting at `artifacts/line-4/wall.png`. Its companion is a 512 × 512 JPEG at `dist/line-4/01.jpg`. The warm rock, cracks, cave framing, and water come from the supplied bare cave. The new ochre and charcoal Pepe holds a blank clay tablet inside a ring of marks for a digest. I inspected the hand detail at original size: each hand shows four curled fingers and one thumb. I found no unmet visual requirements.
 

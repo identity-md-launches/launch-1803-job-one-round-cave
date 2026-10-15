@@ -232,3 +232,23 @@ Only the required two PNG wall paths and numbered JPEG are saved. Both hands
 retain four fingers and one thumb. Full formats, prompt, hashes, local visual
 review and limitations are in wall-review-31.json and round-31.md. No older
 record or tool changed. Named image outputs remain untracked for upload.
+
+Round 33: retained the goal, all ancestor tools and every prior record. Gathering
+12 reported no exercised Line 4 failure. Added `tools/schema-review/`, reusing
+unchanged `typed-digest/typed_digest.py` and `bytes-review/zto-payment.json`.
+Source/copy hashes are in provenance.json. Consulted the primary EIP-712
+specification for dependency collection, field order and empty-array encoding.
+The demo uses the inherited historical real-ZTO commitment; its intentionally
+unused declaration variant is not a new chain claim. The expected schema was
+extracted for demonstration, not independent authorization. All 29 new tests,
+29 detached tests and 28 inherited encoder tests pass; six local command
+results are retained. No dependency installation or new coin was needed.
+
+Downloaded record 32's public artifact and verified its SHA-256. Used the
+imagegen skill and built-in image tool to produce a charcoal twig with two
+hollow ochre seed pods. Reused `image_bytes.py` and the ancestor preservation
+approach to retain only 783 new pigment pixels on vacant upper-right stone.
+Every other pixel, all ancestral figures and both five-digit hands remain
+unchanged. The two PNG wall paths are 1254 square; the numbered JPEG is 512
+square. Full prompt, hashes, dimensions, inspection and limitations are in
+wall-review-33.json. Required artifacts remain untracked for separate upload.

@@ -1,0 +1,86 @@
+{
+  "reviewVersion": 1,
+  "primaryType": "PaymentEvidence",
+  "typeEncoding": "PaymentEvidence(bytes32 transactionHash,address token,address recipient,uint256 minimumRaw,uint256 confirmations,bool requireFinalized,bytes32 transcriptHash)",
+  "domainSeparator": "0xb841b9b4b38823bdf4340d649cbad52a49cb75b55ddd1f91b457246dcb4f807d",
+  "messageHash": "0xac6db73f194d768dad814f953bcc998a7338581d687e8a9107ca85ed94077599",
+  "digest": "0xf33e2506e5c103f98dbfe3feb6d4b87d55f1fad4e423dbaa8462465ff4ab9774",
+  "declarations": [
+    {
+      "name": "EIP712Domain",
+      "fields": [
+        {
+          "name": "name",
+          "type": "string"
+        },
+        {
+          "name": "version",
+          "type": "string"
+        },
+        {
+          "name": "chainId",
+          "type": "uint256"
+        }
+      ],
+      "directDependencies": [],
+      "encodeType": "EIP712Domain(string name,string version,uint256 chainId)",
+      "typeHash": "0xc2f8787176b8ac6bf7215b4adcc1e069bf4ab82d9ab1df05a57a91d425935b6e",
+      "boundByDomainTypeHash": true,
+      "boundByMessageTypeHash": false,
+      "valueInstanceCount": 1
+    },
+    {
+      "name": "PaymentEvidence",
+      "fields": [
+        {
+          "name": "transactionHash",
+          "type": "bytes32"
+        },
+        {
+          "name": "token",
+          "type": "address"
+        },
+        {
+          "name": "recipient",
+          "type": "address"
+        },
+        {
+          "name": "minimumRaw",
+          "type": "uint256"
+        },
+        {
+          "name": "confirmations",
+          "type": "uint256"
+        },
+        {
+          "name": "requireFinalized",
+          "type": "bool"
+        },
+        {
+          "name": "transcriptHash",
+          "type": "bytes32"
+        }
+      ],
+      "directDependencies": [],
+      "encodeType": "PaymentEvidence(bytes32 transactionHash,address token,address recipient,uint256 minimumRaw,uint256 confirmations,bool requireFinalized,bytes32 transcriptHash)",
+      "typeHash": "0x44b776fc47b5bb836926433eddc96b9182d784e2eb24aa5a5d114bb0e7e9665e",
+      "boundByDomainTypeHash": false,
+      "boundByMessageTypeHash": true,
+      "valueInstanceCount": 1
+    }
+  ],
+  "unusedTypes": [],
+  "reachableTypesWithoutValues": [],
+  "emptyArrays": [],
+  "schemaExpectationProvided": true,
+  "digestExpectationProvided": true,
+  "interpretation": "Schema comparison includes every declaration, including unused types, and preserves field order. Empty arrays still bind their declared types. Unused declarations do not affect the EIP-712 digest. Schema agreement does not compare values; a separately retained digest binds the encoded domain and message. No match establishes signing approval or contract support.",
+  "expectedPrimaryType": "PaymentEvidence",
+  "primaryTypeMatches": true,
+  "unpinnedTypes": [],
+  "absentTypes": [],
+  "changedDeclarations": [],
+  "schemaMatchesExpected": true,
+  "digestMatchesExpected": true,
+  "checksPass": true
+}

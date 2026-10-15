@@ -1,0 +1,42 @@
+{
+  "wall": {
+    "paths": [
+      "artifacts/line-4/wall.png",
+      "artifacts/line-4/wall-v13.png"
+    ],
+    "width": 1254,
+    "height": 1254,
+    "format": "PNG",
+    "mode": "RGB",
+    "bytes": 3911103,
+    "sha256": "73bd6c7a85eb1fcaae76af17d5946836386a2d3e1a65d9ee3e5085b2b1b1a0ec"
+  },
+  "preview": {
+    "path": "dist/line-4/33.jpg",
+    "width": 512,
+    "height": 512,
+    "format": "JPEG",
+    "bytes": 78374,
+    "sha256": "f9681b0e4799136d07a845b1c7702a79268735bf767528d7dd1f09bf547ff32d"
+  },
+  "ancestorSha256": "e3dcf90f0eee30956ddbe51344ead52659564eeea0e9e6c9865089ec62d66387",
+  "generatedDraftSha256": "fee52134b1eac7918a2cc1cf5145bf1b25405dee28a28036636e54592281d66a",
+  "imageTool": "Built-in imagegen, generation 01a13d58-72fa-7d61-8551-1820b2b854a7",
+  "prompt": "Use case: precise-object-edit. Edit this exact inherited 1254x1254 square cave painting. Preserve every existing pixel and ancestor painting, Pepe, hands, stone, cracks, water, torchlight and framing. Add ONLY one very small prehistoric charcoal twig ending in two EMPTY red-ochre seed-pod outline loops on the vacant shaded stone at upper right, within x=1010..1150 y=295..355, below the old concentric oval at y=200 and above the old twig at y=410. Two hollow seed-pods represent checking a structure even when it contains no seeds. Uneven thin burnt-stick lines and worn red ochre, rock visible through hollow pods, subdued and primitive. No hands or figures added. Preserve the central broad-mouth heavy-lidded Pepe with both original five-digit hands. Absolutely no text, numbers, letters, signatures, logos, frames or watermarks. Keep exact image dimensions. Save the resulting edited PNG to artifacts/line-4/wall-v13.png in the workspace if supported.",
+  "changedPixels": 783,
+  "unchangedPixels": 1571733,
+  "additionBoundsExclusive": [
+    1030,
+    309,
+    1120,
+    375
+  ],
+  "preservation": "All pixels outside the new vacant-stone pigment, protected deep fissures inside and pod interiors are exact ancestral pixels. Pepe, hands, earlier paintings, water and framing are untouched.",
+  "visualReview": "Inspected the final PNG and decoded 512-pixel JPEG. Broad-mouth, heavy-lidded Pepe remains intact. Each original hand shows four fingers and one thumb; no hands were added. Warm rock, cracks, torchlight, water, framing and all older pigment remain. The new hollow-pod twig is visible but very subtle in the upper-right shadow. No letters, numbers, captions, signatures, logos, watermarks, added frames, real people or prohibited symbols observed.",
+  "unmetVisualRequirements": [],
+  "limitations": [
+    "Local inspection is not independent visual certification.",
+    "The small shaded motif is subtle at thumbnail scale.",
+    "The generated full draft changed surrounding texture; only its isolated new pigment was retained."
+  ]
+}
