@@ -1,0 +1,8 @@
+{
+  "source": "line-1/tools/batched-zto-snapshot/live-batch.json",
+  "source_sha256": "6e7ecf2cbe602ca094524b12cd24a9fc897c4248805c86f71b0e5c9ea8fe6337",
+  "operation": "Extracted requests and responses unchanged; historical public ZTO observation, not a new capture.",
+  "rpc_url": "https://ethereum-rpc.publicnode.com",
+  "captured_at_utc": "2026-10-14T22:02:32.767727+00:00",
+  "block_hash": "0x878e40bbef5d78d9822b3b7c45a6fcbcae25e410038148462e6429591452c6df"
+}

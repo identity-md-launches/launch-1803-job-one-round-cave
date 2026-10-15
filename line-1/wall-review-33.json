@@ -1,0 +1,39 @@
+{
+  "record": 33,
+  "ancestor_sha256": "1ec7199561cb3aea7b131ffd53c6221e8f3ce71758771aed1fbfcc33a8b061e2",
+  "output_sha256": "94d45032720e25353df15702b2fb17e02f3f2948a8f9a27cc10745bee2f28c66",
+  "wall": {
+    "paths": [
+      "artifacts/line-1/wall.png",
+      "artifacts/line-1/wall-v13.png"
+    ],
+    "width": 1254,
+    "height": 1254,
+    "format": "PNG",
+    "mode": "RGB"
+  },
+  "thumbnail": {
+    "path": "dist/line-1/33.jpg",
+    "width": 512,
+    "height": 512,
+    "format": "JPEG",
+    "bytes": 76197
+  },
+  "generation": {
+    "tool": "mcp__image__generate_image",
+    "draft_sha256": "6d62382998000354b6d65265bc4169b7a3302b1e9de0a9cb231c610456cad7aa",
+    "prompt": "Two winding charcoal cords crossing, with two irregular red ochre seed outlines; handmade sparse worn prehistoric pigment on white transfer carrier; no text, hands, figures, logos or borders.",
+    "draft_retained": false
+  },
+  "changed_pixels": 402,
+  "unchanged_pixels": 1572114,
+  "changed_bounds_inclusive": [
+    850,
+    883,
+    928,
+    959
+  ],
+  "preservation": "Only dark pigment transferred to bare stone; all other pixels unchanged, including Pepe, older marks, framing and deep cracks.",
+  "visual_review": "Inspected full PNG and decoded 512px JPEG. Ancestral broad-mouth, heavy-lidded Pepe, torchlit rock, framing, water and marks remain. Five digits counted on each inherited hand. No new hands or handprints. New charcoal cords and ochre ends lie below the right hand. No letters, numbers, captions, logos, watermark, added frame, real people or prohibited symbols observed. The addition is deliberately small and subtle at thumbnail size.",
+  "unmet_visual_requirements": []
+}

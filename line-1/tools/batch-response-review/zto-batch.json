@@ -1,0 +1,46 @@
+{
+  "requests": [
+    {
+      "id": 1,
+      "jsonrpc": "2.0",
+      "method": "eth_call",
+      "params": [
+        {
+          "data": "0x18160ddd",
+          "to": "0xd782bdea4ef02a0bd391eb9089470c8080f0a68e"
+        },
+        {
+          "blockHash": "0x878e40bbef5d78d9822b3b7c45a6fcbcae25e410038148462e6429591452c6df",
+          "requireCanonical": true
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "jsonrpc": "2.0",
+      "method": "eth_call",
+      "params": [
+        {
+          "data": "0x313ce567",
+          "to": "0xd782bdea4ef02a0bd391eb9089470c8080f0a68e"
+        },
+        {
+          "blockHash": "0x878e40bbef5d78d9822b3b7c45a6fcbcae25e410038148462e6429591452c6df",
+          "requireCanonical": true
+        }
+      ]
+    }
+  ],
+  "responses": [
+    {
+      "id": 1,
+      "jsonrpc": "2.0",
+      "result": "0x0000000000000000000000000000000000000000033b2e3c9fd0803ce8000000"
+    },
+    {
+      "id": 2,
+      "jsonrpc": "2.0",
+      "result": "0x0000000000000000000000000000000000000000000000000000000000000012"
+    }
+  ]
+}

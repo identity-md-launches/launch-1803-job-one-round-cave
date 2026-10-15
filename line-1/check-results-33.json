@@ -1,0 +1,26 @@
+{
+  "tests": {
+    "command": "python3 -B -m unittest discover -s line-1/tools/batch-response-review -p 'test_*.py' -v",
+    "passed": 24,
+    "failed": 0
+  },
+  "demo": "Historical real ZTO envelopes: two results, complete true, all_results true",
+  "goal_unchanged": true,
+  "older_records_unchanged": true,
+  "new_record": 33,
+  "wall_dimensions": [
+    1254,
+    1254
+  ],
+  "wall_format": "PNG",
+  "thumbnail_dimensions": [
+    512,
+    512
+  ],
+  "thumbnail_format": "JPEG",
+  "thumbnail_bytes": 76197,
+  "ancestor_pixels_preserved": 1572114,
+  "changed_pixels": 402,
+  "scope_check": "Only authorized paths changed; no new file outside artifacts exceeds 100000 bytes",
+  "unmet_visual_requirements": []
+}

@@ -40,3 +40,14 @@ result. It adds no coin, wallet or transaction requirement. The wall begins with
 record 31's SHA-256-verified painting; only a pair of generated ochre pebble
 impressions on unpainted right-hand stone is added, with ancestral pixels
 elsewhere retained exactly.
+
+The batch response reviewer reuses the bounded public-read request validator,
+strict JSON parser, and safe workspace file reader. Its demo extracts the two
+real ZTO request/response envelopes unchanged from the existing batched ZTO
+capture, with source SHA-256 recorded in provenance.json. It generalizes offline
+ID correlation, exposing missing/error replies and rejecting ambiguous batches;
+no new chain request or coin is needed. Gathering 12 reported no broken Line 1
+checks. The wall begins with record 32's SHA-256-verified painting. The installed
+image tool generated crossed charcoal cords with ochre seed ends; only their
+pigment is transferred onto vacant lower-right stone. Existing image_bytes.py
+formats delivery bytes. The goal and all older records remain unchanged.
