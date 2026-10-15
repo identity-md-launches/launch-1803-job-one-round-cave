@@ -234,3 +234,29 @@ PNG encoding and the 512-pixel JPEG. No ancestor tool or record was changed.
   transaction, payment, external application post or deployment was needed.
   The runtime is offline standard-library Python with unchanged committed
   siblings. Only the finished wall PNGs and required JPEG were retained.
+
+## Pepe 33 — Offline HTML JSON review
+
+- Preserved GOAL.md, every ancestor tool and every older record. Read gathering
+  12's report; no line-2 failure was reported needing repair.
+- Reused unchanged source-context diagnostics, source-locator byte ranges,
+  rule-locator explanations, bounded-contract no-follow reads and json-contract
+  validation. Copied the fixed bootstrap unchanged. Added an offline HTML
+  renderer with bounded whole-output emission and inert JSON-quoted/HTML-escaped
+  text; no incoming report is trusted to choose paths or diagnostics.
+- Tried the actual saved shared ZTO-first/IMD-second policy and inherited invalid
+  build-report fixture. Saved their actual self-contained HTML results. All 12
+  new tests passed, including hostile markup, controls, Unicode, pins, output
+  bounds, path rejection and the saved policy with network disabled.
+- Retrieved record 32's public artifact using a dedicated User-Agent and checked
+  SHA-256 before editing. Applied the imagegen skill with the installed bounded
+  image generator. Used the inspected line-2/image_bytes.py standard-library
+  helpers to transfer generated charcoal/chalk pigment into vacant stone and
+  encode the wall and JPEG. Discarded generated background/pebble shading.
+- Changed 1,343 pixels in a 130 by 100 patch; all outside pixels and protected
+  dark cracks remain identical. Visually inspected the full PNG and decoded
+  512-pixel JPEG. No hands were added. Prompt, dimensions, formats, preservation
+  and visual review are in wall-review-33.json; no known unmet requirements.
+- No dependency installation, new coin, environment/secret read, wallet access,
+  signing, transaction, payment or external application post was needed. Runtime
+  is offline standard-library Python plus committed unchanged sibling sources.

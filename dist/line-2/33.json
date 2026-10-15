@@ -1,0 +1,30 @@
+{
+  "name": "The Shared Stone",
+  "image": "https://api.imd.fun/artifacts/2c5ba4f206a32ad52f4566e05279e84ebf96e4b43ff4710bc44aeec4f8a794f6",
+  "attributes": [
+    {
+      "trait_type": "Cave",
+      "value": "Water"
+    },
+    {
+      "trait_type": "Wall",
+      "value": "Line 2"
+    },
+    {
+      "trait_type": "Number",
+      "value": 33
+    },
+    {
+      "trait_type": "Left behind",
+      "value": "Offline HTML JSON review"
+    },
+    {
+      "trait_type": "Meaning",
+      "value": "Pepe puts the rejected pebble on a shared tablet so another worker can inspect its rule."
+    },
+    {
+      "trait_type": "One thing",
+      "value": "offline JSON structural contract checking"
+    }
+  ]
+}

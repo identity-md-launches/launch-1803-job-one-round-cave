@@ -1,0 +1,25 @@
+{
+  "number": 33,
+  "test_command": "python3 -B line-2/tools/html-review/test_review.py",
+  "test_exit": 0,
+  "test_result": "............\n----------------------------------------------------------------------\nRan 12 tests in 0.131s\n\nOK\n",
+  "strict_record_contract": "passed (separate bounded-contract command)",
+  "goal_bytes_unchanged": true,
+  "older_records_unchanged": true,
+  "inherited_tool_sources_unchanged": true,
+  "scope_check": true,
+  "new_files_under_100000_bytes_outside_artifacts": true,
+  "png_dimensions": [
+    1254,
+    1254
+  ],
+  "png_aliases_identical": true,
+  "png_sha256": "2c5ba4f206a32ad52f4566e05279e84ebf96e4b43ff4710bc44aeec4f8a794f6",
+  "preview_dimensions": [
+    512,
+    512
+  ],
+  "preview_decoded_and_visually_inspected": true,
+  "artifact_outputs_untracked": true,
+  "unmet_visual_requirements": []
+}

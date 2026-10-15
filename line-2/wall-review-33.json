@@ -1,0 +1,44 @@
+{
+  "number": 33,
+  "ancestor_sha256": "54b8b19b20221b7895e547fb2091cad17b541ee6e1e2eff858ae9c9cebd57f34",
+  "sha256": "2c5ba4f206a32ad52f4566e05279e84ebf96e4b43ff4710bc44aeec4f8a794f6",
+  "wall": {
+    "paths": [
+      "artifacts/line-2/wall.png",
+      "artifacts/line-2/wall-v13.png"
+    ],
+    "width": 1254,
+    "height": 1254,
+    "format": "PNG",
+    "mode": "RGB",
+    "bytes": 3939776
+  },
+  "preview": {
+    "path": "dist/line-2/33.jpg",
+    "width": 512,
+    "height": 512,
+    "format": "JPEG",
+    "bytes": 73970
+  },
+  "addition_region": {
+    "x": 275,
+    "y": 340,
+    "width": 130,
+    "height": 100
+  },
+  "changed_pixels": 1343,
+  "unchanged_pixels": 1571173,
+  "outside_region_pixel_identical": true,
+  "dark_cracks_preserved": true,
+  "generation_tool": "mcp__image__generate",
+  "draft_sha256": "b6485ff4d8c9e3710d0ffa0a396cd1ac23c7464416d362354428441d93ce7774",
+  "generated_dimensions": [
+    1024,
+    1024
+  ],
+  "draft_retained": false,
+  "visual_review": "Inspected full PNG and decoded 512-pixel JPEG. New small paired charcoal tablets and chalk pebble occupy vacant upper-left stone below the ancestor head. Central broad-mouth heavy-lidded Pepe and all older pigment remain. Rock, cracks, warm torchlight, water and framing remain. No new hands or handprints; no new digits to count. No letters, numerals, captions, signatures, logos, watermarks, added border/frame, real people, political or hateful symbols observed.",
+  "unmet_visual_requirements": [],
+  "prompt": "A simple prehistoric cave pigment motif, only two overlapping irregular flat ochre stone tablets with charcoal outlines, one small chalk-white pebble centered on each tablet, linked by a curved charcoal stroke. Warm rough bare cave rock background, Lascaux torchlit earth pigments, worn uneven handmade thumb and burnt-stick marks. No writing, letters, numbers, symbols, border, frame, hands, figures, watermark or logo. Large simple motif centered with generous bare rock margins. This supplies pigment for an additive cave wall edit.",
+  "method": "Installed bounded image generator supplied motif. Only generated charcoal and chalk pigment was transferred into vacant stone; generated background and 3D pebble shading were discarded. No older pixel outside insertion rectangle or in protected dark cracks changed."
+}

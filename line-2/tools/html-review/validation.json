@@ -1,0 +1,15 @@
+{
+  "tests": 12,
+  "passed": true,
+  "command": "python3 -B line-2/tools/html-review/test_review.py",
+  "saved_policy_demo": {
+    "exit": 0,
+    "structural_violations": 0,
+    "network_disabled_test": true
+  },
+  "invalid_report_demo": {
+    "exit": 1,
+    "structural_violations": 3
+  },
+  "limitations": "Local observations only; no independent or browser visual certification."
+}
