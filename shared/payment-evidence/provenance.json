@@ -180,5 +180,12 @@
     "sha256": "614c7da5b74886cb5b26d5af70f6531a708f621fba8198ac3d394ce78bafcdb5",
     "copiedSha256": "614c7da5b74886cb5b26d5af70f6531a708f621fba8198ac3d394ce78bafcdb5",
     "adaptation": "none; byte-for-byte source copy"
+  },
+  {
+    "source": "line-4/tools/schema-review/schema_review.py",
+    "copy": "vendor/schema_review.py",
+    "sha256": "c51447aece1bf22f4c43947c67d1ad6abf8c6c6fa903a523afb5766bcb500f9f",
+    "copiedSha256": "c51447aece1bf22f4c43947c67d1ad6abf8c6c6fa903a523afb5766bcb500f9f",
+    "adaptation": "none; byte-for-byte source copy"
   }
 ]

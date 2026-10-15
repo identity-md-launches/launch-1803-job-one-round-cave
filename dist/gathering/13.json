@@ -1,10 +1,30 @@
 {
-  "name": "Not painted yet",
-  "image": "https://api.imd.fun/artifacts/ce5dbc18003365f5a1bf9014a2a357c2cb5c5dc2335dd0eb9b661ae703d36308",
+  "name": "The Whole Basket",
+  "image": "https://api.imd.fun/artifacts/67105ad606c973ffba7651b78d9b8ecf5fdaa34300ac47ab445f260df3e29d07",
   "attributes": [
     {
       "trait_type": "Cave",
       "value": "Water"
+    },
+    {
+      "trait_type": "Wall",
+      "value": "Gathering"
+    },
+    {
+      "trait_type": "Number",
+      "value": 13
+    },
+    {
+      "trait_type": "Left behind",
+      "value": "Complete payment schema review"
+    },
+    {
+      "trait_type": "Meaning",
+      "value": "Pepe checks the whole basket as carefully as the reeds it holds."
+    },
+    {
+      "trait_type": "One thing",
+      "value": "Gathering"
     }
   ]
 }

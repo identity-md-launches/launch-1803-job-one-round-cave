@@ -1,0 +1,256 @@
+{
+  "accepted": true,
+  "state": "payment_bytes_and_schema_match",
+  "alerts": [],
+  "paymentByteReview": {
+    "accepted": true,
+    "state": "payment_and_byte_review_match",
+    "alerts": [],
+    "paymentReview": {
+      "accepted": true,
+      "state": "exact_payment_review_matches",
+      "alerts": [],
+      "paymentAccepted": true,
+      "clientMatchesPaymentCommitment": true,
+      "domainAndPrimaryTypeMatch": true,
+      "paymentMatchesExpectedDigest": true,
+      "paymentCommitment": "0x41d9999db383e39c78be45661d68307592ad1b8da2fcace128efcfa5e4e29d2c",
+      "integerReview": {
+        "reviewVersion": 1,
+        "primaryType": "PaymentEvidence",
+        "typeEncoding": "PaymentEvidence(bytes32 transactionHash,address token,address recipient,uint256 minimumRaw,uint256 confirmations,bool requireFinalized,bytes32 transcriptHash)",
+        "domainSeparator": "0xb841b9b4b38823bdf4340d649cbad52a49cb75b55ddd1f91b457246dcb4f807d",
+        "messageHash": "0xf770b87ef4056d6cb901367668082b8425381e59a66a2890b7d0c1384b8e0822",
+        "digest": "0x41d9999db383e39c78be45661d68307592ad1b8da2fcace128efcfa5e4e29d2c",
+        "integers": [
+          {
+            "path": "/domain/chainId",
+            "type": "uint256",
+            "widthBits": 256,
+            "signed": false,
+            "inputForm": "json_integer",
+            "parsedValue": "1",
+            "exactDecimal": "1",
+            "minimumDecimal": "0",
+            "maximumDecimal": "115792089237316195423570985008687907853269984665640564039457584007913129639935",
+            "word": "0x0000000000000000000000000000000000000000000000000000000000000001",
+            "requiresExactIntegerHandling": false,
+            "unsafeJsonNumber": false,
+            "binary64Coercion": {
+              "nearestIntegerDecimal": "1",
+              "deltaDecimal": "0",
+              "changesValue": false,
+              "outsideDeclaredRange": false
+            }
+          },
+          {
+            "path": "/message/minimumRaw",
+            "type": "uint256",
+            "widthBits": 256,
+            "signed": false,
+            "inputForm": "decimal_string",
+            "parsedValue": "166357571280020680094504",
+            "exactDecimal": "166357571280020680094504",
+            "minimumDecimal": "0",
+            "maximumDecimal": "115792089237316195423570985008687907853269984665640564039457584007913129639935",
+            "word": "0x00000000000000000000000000000000000000000000233a43130efdb61e3328",
+            "requiresExactIntegerHandling": true,
+            "unsafeJsonNumber": false,
+            "binary64Coercion": {
+              "nearestIntegerDecimal": "166357571280020678115328",
+              "deltaDecimal": "-1979176",
+              "changesValue": true,
+              "outsideDeclaredRange": false
+            }
+          },
+          {
+            "path": "/message/confirmations",
+            "type": "uint256",
+            "widthBits": 256,
+            "signed": false,
+            "inputForm": "json_integer",
+            "parsedValue": "12",
+            "exactDecimal": "12",
+            "minimumDecimal": "0",
+            "maximumDecimal": "115792089237316195423570985008687907853269984665640564039457584007913129639935",
+            "word": "0x000000000000000000000000000000000000000000000000000000000000000c",
+            "requiresExactIntegerHandling": false,
+            "unsafeJsonNumber": false,
+            "binary64Coercion": {
+              "nearestIntegerDecimal": "12",
+              "deltaDecimal": "0",
+              "changesValue": false,
+              "outsideDeclaredRange": false
+            }
+          }
+        ],
+        "integerCount": 3,
+        "requiresExactIntegerHandling": true,
+        "hasUnsafeJsonNumbers": false,
+        "binary64CoercionChangesValue": true,
+        "interpretation": "Original exact integers determine the digest. Binary64 values are hypothetical nearest-even conversions, never substituted. Strings preserve input values but later Number coercion may lose precision. No units, token decimals or business meaning are inferred. No numeric cues does not mean approval.",
+        "matchesExpected": true
+      },
+      "providerAuthenticated": false,
+      "evidenceMode": "offline historical RPC observations",
+      "limits": "Historical provider assertions, not current settlement or a state proof. Caller policy, domain, type and digest must be independently chosen. Exact strings can still lose precision if later coerced to Number. A matching review authorizes no signature, token permit or payment."
+    },
+    "byteReview": {
+      "reviewVersion": 1,
+      "primaryType": "PaymentEvidence",
+      "typeEncoding": "PaymentEvidence(bytes32 transactionHash,address token,address recipient,uint256 minimumRaw,uint256 confirmations,bool requireFinalized,bytes32 transcriptHash)",
+      "domainSeparator": "0xb841b9b4b38823bdf4340d649cbad52a49cb75b55ddd1f91b457246dcb4f807d",
+      "messageHash": "0xf770b87ef4056d6cb901367668082b8425381e59a66a2890b7d0c1384b8e0822",
+      "digest": "0x41d9999db383e39c78be45661d68307592ad1b8da2fcace128efcfa5e4e29d2c",
+      "fields": [
+        {
+          "path": "/message/transactionHash",
+          "type": "bytes32",
+          "value": "0xc4ca304c305cae326cab066639ab2156412eee7f5f774b41a2a136369f817ef7",
+          "inputBytes": 32,
+          "encoding": "right_zero_pad",
+          "paddingBytes": 0,
+          "word": "0xc4ca304c305cae326cab066639ab2156412eee7f5f774b41a2a136369f817ef7",
+          "zeroByteOffsets": [],
+          "empty": false
+        },
+        {
+          "path": "/message/transcriptHash",
+          "type": "bytes32",
+          "value": "0x7a1b57c2854e42f5dafe9ed3a5df75046b7e121468cafe8abef7f938453ad9af",
+          "inputBytes": 32,
+          "encoding": "right_zero_pad",
+          "paddingBytes": 0,
+          "word": "0x7a1b57c2854e42f5dafe9ed3a5df75046b7e121468cafe8abef7f938453ad9af",
+          "zeroByteOffsets": [],
+          "empty": false
+        }
+      ],
+      "byteFieldCount": 2,
+      "expectationsProvided": true,
+      "digestExpectationProvided": true,
+      "interpretation": "Exact bytes and declared types are compared, never padded, trimmed or repaired in the input. Matching byte fields does not pin non-byte values or the whole schema. A matching digest is not signing approval, ownership or contract support.",
+      "unpinnedPaths": [],
+      "absentPaths": [],
+      "checks": [
+        {
+          "path": "/message/transactionHash",
+          "typeMatches": true,
+          "bytesMatch": true,
+          "expected": {
+            "type": "bytes32",
+            "value": "0xc4ca304c305cae326cab066639ab2156412eee7f5f774b41a2a136369f817ef7"
+          },
+          "actual": {
+            "type": "bytes32",
+            "value": "0xc4ca304c305cae326cab066639ab2156412eee7f5f774b41a2a136369f817ef7"
+          }
+        },
+        {
+          "path": "/message/transcriptHash",
+          "typeMatches": true,
+          "bytesMatch": true,
+          "expected": {
+            "type": "bytes32",
+            "value": "0x7a1b57c2854e42f5dafe9ed3a5df75046b7e121468cafe8abef7f938453ad9af"
+          },
+          "actual": {
+            "type": "bytes32",
+            "value": "0x7a1b57c2854e42f5dafe9ed3a5df75046b7e121468cafe8abef7f938453ad9af"
+          }
+        }
+      ],
+      "byteExpectationsMatch": true,
+      "digestMatchesExpected": true,
+      "checksPass": true
+    },
+    "authorization": "Historical evidence review only; no signing or payment authorization."
+  },
+  "schemaReview": {
+    "reviewVersion": 1,
+    "primaryType": "PaymentEvidence",
+    "typeEncoding": "PaymentEvidence(bytes32 transactionHash,address token,address recipient,uint256 minimumRaw,uint256 confirmations,bool requireFinalized,bytes32 transcriptHash)",
+    "domainSeparator": "0xb841b9b4b38823bdf4340d649cbad52a49cb75b55ddd1f91b457246dcb4f807d",
+    "messageHash": "0xf770b87ef4056d6cb901367668082b8425381e59a66a2890b7d0c1384b8e0822",
+    "digest": "0x41d9999db383e39c78be45661d68307592ad1b8da2fcace128efcfa5e4e29d2c",
+    "declarations": [
+      {
+        "name": "EIP712Domain",
+        "fields": [
+          {
+            "name": "name",
+            "type": "string"
+          },
+          {
+            "name": "version",
+            "type": "string"
+          },
+          {
+            "name": "chainId",
+            "type": "uint256"
+          }
+        ],
+        "directDependencies": [],
+        "encodeType": "EIP712Domain(string name,string version,uint256 chainId)",
+        "typeHash": "0xc2f8787176b8ac6bf7215b4adcc1e069bf4ab82d9ab1df05a57a91d425935b6e",
+        "boundByDomainTypeHash": true,
+        "boundByMessageTypeHash": false,
+        "valueInstanceCount": 1
+      },
+      {
+        "name": "PaymentEvidence",
+        "fields": [
+          {
+            "name": "transactionHash",
+            "type": "bytes32"
+          },
+          {
+            "name": "token",
+            "type": "address"
+          },
+          {
+            "name": "recipient",
+            "type": "address"
+          },
+          {
+            "name": "minimumRaw",
+            "type": "uint256"
+          },
+          {
+            "name": "confirmations",
+            "type": "uint256"
+          },
+          {
+            "name": "requireFinalized",
+            "type": "bool"
+          },
+          {
+            "name": "transcriptHash",
+            "type": "bytes32"
+          }
+        ],
+        "directDependencies": [],
+        "encodeType": "PaymentEvidence(bytes32 transactionHash,address token,address recipient,uint256 minimumRaw,uint256 confirmations,bool requireFinalized,bytes32 transcriptHash)",
+        "typeHash": "0x44b776fc47b5bb836926433eddc96b9182d784e2eb24aa5a5d114bb0e7e9665e",
+        "boundByDomainTypeHash": false,
+        "boundByMessageTypeHash": true,
+        "valueInstanceCount": 1
+      }
+    ],
+    "unusedTypes": [],
+    "reachableTypesWithoutValues": [],
+    "emptyArrays": [],
+    "schemaExpectationProvided": true,
+    "digestExpectationProvided": true,
+    "interpretation": "Schema comparison includes every declaration, including unused types, and preserves field order. Empty arrays still bind their declared types. Unused declarations do not affect the EIP-712 digest. Schema agreement does not compare values; a separately retained digest binds the encoded domain and message. No match establishes signing approval or contract support.",
+    "expectedPrimaryType": "PaymentEvidence",
+    "primaryTypeMatches": true,
+    "unpinnedTypes": [],
+    "absentTypes": [],
+    "changedDeclarations": [],
+    "schemaMatchesExpected": true,
+    "digestMatchesExpected": true,
+    "checksPass": true
+  },
+  "limitations": "Historical provider assertions only. Expectations require independent custody. The digest does not bind unused declarations; the separate schema comparison does. No freshness, state proof or signing approval."
+}

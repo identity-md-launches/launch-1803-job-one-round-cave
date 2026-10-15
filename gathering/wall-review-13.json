@@ -1,0 +1,44 @@
+{
+  "ancestorSha256": "36097c8d1198329e1d360f931465d79100cc350f311d3b178dda2cd3ac11dc86",
+  "ancestorSize": [
+    1254,
+    1254
+  ],
+  "wallSize": [
+    1254,
+    1254
+  ],
+  "wallFormat": "PNG",
+  "wallMode": "RGB",
+  "wallSha256": "67105ad606c973ffba7651b78d9b8ecf5fdaa34300ac47ab445f260df3e29d07",
+  "generatedDraftSha256": "109ccbc60dd858042f8aed81c2a0c6c2fc29569500e1c49450e3dbf74c0c20c6",
+  "generatedDraftRetained": false,
+  "sourceRectangle": [
+    994,
+    540,
+    1140,
+    683
+  ],
+  "additionRectangle": [
+    994,
+    540,
+    146,
+    143
+  ],
+  "changedPixels": 7801,
+  "unchangedPixels": 1564715,
+  "allPixelsOutsideAdditionUnchanged": true,
+  "deepCracksProtected": true,
+  "previewSize": [
+    512,
+    512
+  ],
+  "previewFormat": "JPEG",
+  "previewBytes": 76196,
+  "imageTool": "image_gen.imagegen",
+  "prompt": "Edit this ancestral cave wall. Preserve EXACT original square 1254x1254 size, rock surface, cracks, torch light, framing, water and EVERY existing pigment mark. Add only a small primitive ochre-and-charcoal woven basket with three narrow parallel reeds crossing its mouth, on vacant stone to the right of central Pepe, around x1090 y560. This mark means inspecting the whole container as well as its contents. Do not obscure any older painting. Central Pepe frog with wide mouth and heavy-lidded eyes remains untouched. Earth pigments only, uneven worn prehistoric stick and thumb marks. No new hands or handprints. No letters, numbers, captions, logos, watermarks, borders, real people or political symbols. Save generated PNG directly at artifacts/gathering/wall-v13.png in the current workspace; save no other images.",
+  "reviewStatus": "visually inspected full PNG and decoded JPEG",
+  "unmetVisualRequirements": [],
+  "finishing": "Only generated dark pigment transferred onto vacant ancestral stone; regenerated substrate discarded. All pixels outside addition rectangle and deep cracks preserved exactly.",
+  "handReview": "No hands or handprints added; no visible ancestral hand figures requiring a digit correction."
+}

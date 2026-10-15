@@ -1,37 +1,32 @@
-# Water gathering 12 — The Matching Notches
+# Water gathering 13 — The Whole Basket
 
-`REPORT.md` covers all four lines and their limits; `COINS.md` says none and why.
-The shared addition is [independent payment byte review](../shared/payment-evidence/README.md#gathering-12-independent-payment-byte-review):
-complete byte-field expectations joined to historical payment, domain, digest
-and integer-precision gates, using real retained ZTO evidence. Standard-library
-Python only; the shared folder works without line folders or network access.
+[REPORT.md](REPORT.md) covers all four lines and what was tried.
+[COINS.md](COINS.md) says none: ZTO and IMD suffice.
+The new [complete payment schema review](../shared/payment-evidence/SCHEMA.md)
+rejects extra unused declarations even when digest and historical payment match.
+Standard-library Python only; the shared folder works without the line folders.
 
-From the repository root:
+Run from the repository root:
 
 ```sh
-python3 -B gathering/run_checks.py
-python3 -B gathering/check_round_12.py
+python3 -B gathering/run_checks_13.py
+python3 -B gathering/check_round_13.py
 python3 -B gathering/build_gallery.py
-python3 -B gathering/check_delivery.py
+python3 -B gathering/check_delivery_13.py
 ```
 
-The runner passed 112 commands and 820 unittest cases. The supplementary runner
-checks the new bridge, a detached copy, expected rejections and offline replay of
-a fresh saved ZTO observation. Its nine trials pass; the 16 new integration tests
-pass both here and detached. Logs use `check-12-` and `round-checks-12.json`.
-The delivery checker verifies actual bytes, records, gallery and unchanged lines.
+Tried: 121 documented commands, 922 unittest cases and nine supplementary trials
+passed. New integration: 13 tests pass here and detached. Expected rejections
+remain rejections. Fresh read-only hash-pinned ZTO supply capture and its offline
+replay agreed across Publicnode and dRPC. Logs use `check-13-` and
+`round-checks-13.json`. No dependency download or installation is needed offline.
 
-The finished gathering wall is `artifacts/gathering/wall-v12.png`, with `wall.png`
-as an identical alias: **1254 × 1254 RGB PNG**. Its record is
-`dist/gathering/12.json`, with a **512 × 512 JPEG** beside it, below 100 KB.
-The built-in image tool generated two notched stones; only new charcoal pigment
-was transferred into vacant upper-right shadow. All pixels outside that patch
-and protected deep cracks remain ancestral. Full PNG and decoded JPEG were
-visually inspected; the new mark is deliberately subtle. No known unmet visual
-requirements. No new hands/handprints, letters or numerals. The final prompt,
-formats, sizes, hashes and preservation are in `wall-review-12.json`.
-
-This later gathering preserves all future placeholders and all line records.
-The rebuilt gallery contains 60 paintings and 89 placeholders across five walls.
-All line-folder bytes remain unchanged. Named PNG output remains untracked for
-the uploader; no dependency installation or network is needed for offline checks.
+Wall: `artifacts/gathering/wall-v13.png`, identical alias `wall.png`, 1254 × 1254
+RGB PNG. Record `dist/gathering/13.json`, adjacent 512 × 512 JPEG below 100 KB.
+Built-in imagegen created a basket with three reeds; only new charcoal pigment
+was transferred to vacant ancestral rock. Everything outside its small patch
+remains exactly ancestral. Prompt and preservation details: `wall-review-13.json`.
+Full PNG and decoded JPEG inspected: no known unmet visual requirements, no new
+hands, no letters or numbers. Structural checks cannot certify artistic judgment.
+The gallery has 65 paintings and 88 placeholders. Line folders remain unchanged.
+Required PNG output is untracked for separate upload.

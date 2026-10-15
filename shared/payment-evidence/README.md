@@ -728,3 +728,9 @@ or signing/payment authorization. This command does not add freshness, paired
 provider or ancestry policy; the existing separate tools retain those functions.
 No input is modified and no wallet, key, secret, environment or signing transport
 is accessed. ZTO and IMD already serve the evidence; no new coin is needed.
+
+## Gathering 13: complete declaration binding
+
+[Complete payment schema review](SCHEMA.md) adds mandatory independently supplied
+schema expectations, including unused declarations that the digest cannot bind.
+Its one-command offline demo, trial results and limitations are documented there.

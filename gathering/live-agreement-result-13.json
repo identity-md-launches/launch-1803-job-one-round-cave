@@ -1,0 +1,15 @@
+{
+  "block_hash": "0xbaa6b9ce8fe85b2ba444b531518960a6262e7ccf16cedb7fb278310ca93c706c",
+  "block_number": 26194844,
+  "decimals": 18,
+  "evidence": "Provider observations, not a consensus or state proof",
+  "sources": [
+    "https://ethereum-rpc.publicnode.com",
+    "https://eth.drpc.org"
+  ],
+  "status": "two_sources_agree_on_hash_pinned_zto",
+  "total_supply_raw": "1000000000000000000000000000",
+  "total_supply_tokens": "1000000000.000000000000000000",
+  "transcript_sha256": "0061b90fe8637099508a03132116e05d9f0d7e0d43e18aade3409c32da3f2626",
+  "zto_address": "0xd782bdea4ef02a0bd391eb9089470c8080f0a68e"
+}

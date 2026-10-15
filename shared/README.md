@@ -76,3 +76,8 @@ Line 4's exact byte-field expectations now join the historical payment, domain,
 full digest and integer-precision gates. Two byte fields must match separately
 retained expectations; partial coverage or null expectations reject. The complete
 folder is portable offline, with an unchanged vendor copy and 16 integration tests.
+
+Gathering 13 adds [complete payment schema review](payment-evidence/SCHEMA.md),
+joining Line 4's declaration comparison with Line 3's historical payment replay
+and Line 2's contracts. Unused client declarations now reject even with the same
+digest, exact bytes and accepted payment evidence.
